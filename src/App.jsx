@@ -1,6 +1,6 @@
 import { Post } from "./Post";
-import { Header } from "./components/header";
-import './styles.css'
+import { Header } from "./components/Header"; 
+import './global.css'
 
 
 export function App() {
@@ -13,7 +13,7 @@ export function App() {
       content="Lorem..."
     />
    <Post
-    author="Rafael Adriano" 
+    author="Rafael Oliveira" 
     content="Lorem..."/>
    <Post/>
    </div>
